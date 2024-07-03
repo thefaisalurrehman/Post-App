@@ -1,0 +1,17 @@
+CREATE TABLE PostList (
+    id INTEGER NOT NULL PRIMARY KEY,
+    title TEXT NOT NULL,
+    body TEXT NOT NULL,
+    userId INTEGER NOT NULL
+);
+
+insertPostlist:
+INSERT OR REPLACE INTO PostList(id, title, body, userId)
+VALUES(?, ?, ?, ?);
+
+removePostlist:
+DELETE FROM PostList;
+
+getPostlist:
+SELECT *
+FROM PostList;
