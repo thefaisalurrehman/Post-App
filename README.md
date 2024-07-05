@@ -2,6 +2,20 @@
 
 ThePost is a template for creating cross-platform applications using Kotlin Multiplatform (KMP). It provides a basic file structure and includes tools and libraries for efficient development, such as a version catalog for dependencies, a Shared MVI (Model-View-Intent) architecture with Kotlin Flows and Coroutines, Kermit logger, Ktor HTTP client, Koin dependency injection, and SQLDelight for database integration.
 
+# Screen Shoots
+<div align="center">
+   <a target="_blank" rel="noopener noreferrer" href="">
+     <img src="https://github.com/thefaisalurrehman/Post-App/assets/77713815/a89ef8b2-a498-4d95-836b-aac027d86b82" width="330" style="max-width: 100%;"></a>
+ &nbsp;
+
+  <a target="_blank" rel="noopener noreferrer" href="">
+     <img src="https://github.com/thefaisalurrehman/Post-App/assets/77713815/d01306b0-3ecd-4ee8-955c-d2491a063a57" width="330" style="max-width: 100%;"></a>
+  </div>
+  <br>
+  <hr>
+  <br>
+
+
 ## Project Structure
 
 The project is organized into the following directories:
