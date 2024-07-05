@@ -19,5 +19,5 @@ actual fun platformModule(): Module = module {
 }
 
 object ViewModelProvider : KoinComponent {
-    fun getMovieViewModel() = get<PostListViewModel>()
+    fun getPostListViewModel() = get<PostListViewModel>()
 }

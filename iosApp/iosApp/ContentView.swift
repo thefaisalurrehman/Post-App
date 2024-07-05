@@ -2,7 +2,7 @@ import SwiftUI
 import shared
 
 struct ContentView: View {
-    @ObservedObject var viewModel: MainVmObserver = MainVmObserver(viewModelDelegate: ViewModelProvider().getMovieViewModel())
+    @ObservedObject var viewModel: MainVmObserver = MainVmObserver(viewModelDelegate: ViewModelProvider().getPostListViewModel())
     
     var body: some View {
         ZStack{
