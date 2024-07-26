@@ -15,7 +15,7 @@ actual fun platformModule(): Module = module {
         Darwin.create()
     }
 
-    factory { PostListViewModel(get()) }
+    single { PostListViewModel(get()) }
 }
 
 object ViewModelProvider : KoinComponent {
